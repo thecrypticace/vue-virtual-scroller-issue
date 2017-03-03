@@ -14,6 +14,8 @@ require('./bootstrap');
  */
 
 Vue.component('example', require('./components/Example.vue'));
+import VueVirtualScroller from "vue-virtual-scroller"
+Vue.use(VueVirtualScroller)
 
 const app = new Vue({
     el: '#app'
